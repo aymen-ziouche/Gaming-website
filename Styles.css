@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap");
+
+body {
+  background-color: #432849;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+li {
+  float: left;
+}
+.signin-header {
+  float: right;
+}
+.signin {
+  background-color: #2fd4ea;
+  color: white;
+  width: 60px;
+  padding: 15px;
+}
+.signup {
+  width: 60px;
+  border: 1px solid #2fd4ea;
+  padding: 14px;
+  margin-right: 20px;
+}
+.logo {
+  margin-right: 1cm;
+  font-size: 80%;
+  font-family: "Lemonada", cursive;
+}
+.hr {
+  position: absolute;
+  top: 120px;
+  left: 110px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  color: #2fd4ea;
+}
+.container {
+  position: absolute;
+  top: 150px;
+  left: 90px;
+}
+.container h1 {
+  color: white;
+  font-size: 50px;
+  margin: 0%;
+  padding: 20px;
+}
+.container span {
+  color: white;
+  font-size: large;
+  padding: 5px;
+  margin: 1px;
+  margin-left: 15px;
+  width: 100%;
+  width: 40%;
+  float: left;
+  position: relative;
+  top: 10px;
+  width: 600px;
+}
+.pic {
+  width: 580px;
+  margin: auto 10%;
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1),
+    0 16px 32px rgba(0, 0, 0, 0.1), 0 32px 64px rgba(0, 0, 0, 0.1);*/
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+button {
+  background-color: #2fd4ea;
+  border: none;
+  color: black;
+  padding: 17px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-style: initial;
+  margin-top: 350px;
+  margin-left: 120px;
+  border-radius: 30px;
+}
